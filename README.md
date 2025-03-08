@@ -48,7 +48,7 @@ CSS는 랜더링 차단 리소스이다. media 속성을 사용하면 CSS 파일
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     ```
-    
+  
 - 접근성
   1. `<meta>` 태그:
  
