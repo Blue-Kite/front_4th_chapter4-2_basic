@@ -44,8 +44,7 @@ CSS는 랜더링 차단 리소스이다. media 속성을 사용하면 CSS 파일
   - preload: 현재 페이지에서 확실히 사용할 리소스는 `preload`를 사용해 미리 가져옴, 반드시 as 속성으로 브라우저에 리소스 유형을 알려줘야함 
  
   - preconnect: 외부 도메인의 리소스를 참고할때, 브라우저가 미리 외부 도메인과 연결할 수 있도록 함. 현재 폰트 리소스를 위해 미리 연결했음.<br>
-    ```<link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />```
+    ```<link rel="preconnect" href="https://fonts.googleapis.com" /> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />```
     
 - 접근성
   1. `<meta>` 태그:
@@ -55,7 +54,7 @@ CSS는 랜더링 차단 리소스이다. media 속성을 사용하면 CSS 파일
   3. 그 외 
   `<br>` vs `<strong>`와  `<i>` vs `<em>`: 생긴 건 똑같지만 `<strong>`과 `<em>`가 더 강조의 의미를 포함
   `<small>`: 텍스트를 작게 표시
-  `<mark>`: 하이라이트 ``
+  `<mark>`: 하이라이트
   `<ins>`: 밑줄 
   `<sub> <sup>`: 아래 첨자, 위 첨자
   `<blockquote>`: 인용
