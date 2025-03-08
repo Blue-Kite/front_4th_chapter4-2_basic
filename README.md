@@ -66,8 +66,8 @@ CSS는 랜더링 차단 리소스이다. media 속성을 사용하면 CSS 파일
 
   3. ARIA 관련 코드: aria-labelledby, aria-label, alt, role 속성을 추가 
  
-  5. 그 외<br>
-  `<br>` vs `<strong>`와  `<i>` vs `<em>`: 생긴 건 똑같지만 `<strong>`과 `<em>`가 더 강조의 의미를 포함<br>
+  4. 그 외<br>
+  `<b>` vs `<strong>`와  `<i>` vs `<em>`: 생긴 건 똑같지만 `<strong>`과 `<em>`가 더 강조의 의미를 포함<br>
   `<small>`: 텍스트를 작게 표시<br>
   `<mark>`: 하이라이트<br>
   `<ins>`: 밑줄<br>
