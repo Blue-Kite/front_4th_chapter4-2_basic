@@ -80,13 +80,21 @@ CSS는 랜더링 차단 리소스이다. media 속성을 사용하면 CSS 파일
 
 - 이미지 최적화
 
-1) 왜 이미지 포맷을 바꾸었는가?
+1) webp 웹 포맷이란?: 구글에서 만든 이미지 형식으로 jpg, png, gif로 대체 가능하고 압축 방식(무손실 압축, 손실 압축)을 선택 가능함, 로딩 시간이 줄어듬 
 
-2) 왜 `picture`태그를 사용했는가?
+2) 반응형 이미지
 
-3) 지연로딩이란?
+`img` 태그: srcset 속성으로 이미지 다운로드 받는 기준, size는 보여주는 기준 
 
-4) 비디오 리소스 최적화
+`picture` 태그: 해상도에 따라 이미지를 제공, 하나의 `<img>` 태그와 0개 이상의 `<source>`태그를 포함, type 속성으로 특정 이미지 형식만 지원 가능 
+```
+<picture>
+  <source media="(min-width:800px)" srcset="images/logo.webp" type="image/webp"/>
+  <img src="images/logo.png/>
+<picture>
+```
+
+4) 지연로딩이란? 
    
 - 웹 공유 최적화 
 
